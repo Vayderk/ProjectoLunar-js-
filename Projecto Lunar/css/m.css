@@ -1,0 +1,218 @@
+#contenedor,html{
+	height:100%;padding:0px;margin:0px;
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	font-family: Arial;
+}
+.menuIzq{
+	display: inline-block; 
+	width: 25%;
+	height: 100%;
+	position: fixed;left: 0px;
+	background-image: url("../img/mundo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.controlesNave{
+	width: auto; height: auto; max-width: 180px;
+	background-color:gray;
+	margin: 10px;
+	margin-top: 6%;
+	width: 100%;
+	border-style: solid;
+	border-color: #2E8B57;
+	font-size: 120%;
+	min-width: 100px;
+}
+
+#botonOn{
+	border-style: solid;
+	border-color: #2E8B57;
+	background-color: gray;
+	margin: 10px;
+	margin-top: 5%;
+	color: black;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/on.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 55% 40%;
+	padding-top: 13%;
+}
+
+.menuDer{
+	position: fixed; right: 0px; top: 0px;
+	width: 25%;
+	
+	}
+
+#reanudar {
+	border-style: solid;
+	border-color: #2E8B57;
+	display: none;
+	float: right;
+	background-color: #00FA9A;
+	margin: 10px;
+	margin-top: 5%;
+	color: #00FA9A;
+	font-size: 0%;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/play.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+	pointer-events: auto;
+}
+#pausa {
+	border-style: solid;
+	border-color: #2E8B57;
+	display: inline-block;
+	float: right;
+	background-color: #00FA9A;
+	margin: 10px;
+	margin-top: 5%;
+	font-size: 0%;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/pausa.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+	}
+
+
+#reinicia {
+	border-style: solid;
+	border-color: #2E8B57;
+	display: inline-block;
+	width: 70px; height: 70px;
+	float: right;
+	font-size: 0%;
+	color: gray;
+	background-color: darkslateblue;
+	margin: 10px;
+	margin-top: 5%;
+	background-image: url("../img/reiniciar.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+#instrucciones {
+
+	border-style: solid;
+	border-color: #2E8B57;
+	display: inline-block;
+	float: right;
+	background-color: #00FA9A;
+	margin: 10px;
+	margin-top: 5%;
+	width: 70px;
+	height: 70px;
+	font-size: 0%;
+	background-image: url("../img/instrucciones.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+#menuInstrucciones {
+	
+margin: 5%;
+	background-image: url("../img/fondo2.jpg");
+	text-align: center;
+	border-style: outset;
+	position: absolute;
+	display: none;
+}
+
+.zonaAterrizaje{
+	height:15%;
+	width:60%;
+	position:fixed;
+	bottom:0px;
+	left:20%;
+}
+
+#luna {
+	height: 200%; 
+	width: 100%;
+}
+
+#nave{
+	text-align:center;
+	position:fixed;
+	top:5%;
+	width:100%;
+	height:15%;
+}
+
+#imgnave{
+	height:100%;
+	display: block;
+	margin: auto;
+}
+#imgFuego{
+	height: 40%;
+	display: none;
+	margin: auto;
+}
+
+#gameOver{
+	background-image: url("../img/fondo2.jpg");
+	text-align: center;
+	border-style: outset;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 10%;
+	top: 10%;
+}
+
+#userWin{
+	background-image: url("../img/fondo2.jpg");
+	text-align: center;
+	border-style: outset;
+	position: absolute;
+	display: none;
+	width: 80%;
+	left: 10%;
+	top: 10%;
+}
+
+
+button {
+	background-color:red;
+	font-family: Arial;
+}
+
+
+#hidem,#showm{display:none}
+
+h2, h3 {
+	color: white;
+	width: 100;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+p {
+	color: white;
+
+}
+
+.espacio,.on {
+	color: red
+}
+ 
+.imgOver {
+	width: 100%;
+}
+.imgWin {
+	width: 100%;
+}
+
+.boton {
+	width: 100%;
+}
