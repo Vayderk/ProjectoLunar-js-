@@ -100,6 +100,26 @@
 	background-size: 100%;
 	background-position: 50% 50%;
 }
+
+
+#About {
+	border-style: solid;
+	border-color: #2E8B57;
+	display: inline-block;
+	float: right;
+	background-color: #00FA9A;
+	margin: 10px;
+	margin-top: 5%;
+	font-size: 0%;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/About.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+	}
+
+
 #instrucciones {
 
 	border-style: solid;
